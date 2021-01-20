@@ -1,6 +1,6 @@
 {
   "name": "envtrace",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "xtrace x debug",
   "main": "envtrace.js",
   "module": "envtrace.es6.js",
