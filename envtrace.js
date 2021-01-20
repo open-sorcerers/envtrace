@@ -2345,7 +2345,7 @@ var segmentTrace = segment({
 });
 
 const testableEnvTrace = curry((wrap, name) => {
-  const logger = curry((a, b) => wrap(name)(a, b));
+  const logger = wrap(name);
   const envLog = callBinary(logger);
   return envLog
 });

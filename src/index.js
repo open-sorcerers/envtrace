@@ -12,7 +12,7 @@ import debug from 'debug'
 import { callBinary } from 'xtrace'
 
 export const testableEnvTrace = curry((wrap, name) => {
-  const logger = curry((a, b) => wrap(name)(a, b))
+  const logger = wrap(name)
   const envLog = callBinary(logger)
   return envLog
 })

@@ -1,6 +1,6 @@
 # envtrace
 
-> all the convenience of `xtrace` + `debug` in a single package
+**all the convenience of `xtrace` + `debug` in a single package**
 
 1. Let's say you want to be able to add logging a la `debug` and your application is called *dope* :
 
