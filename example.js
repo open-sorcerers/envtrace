@@ -5,7 +5,7 @@ const { envtrace } = N
 
 const simple = envtrace('example')
 
-const example1 = () => {
+const example = () => {
   return pipe(
     simple('input'),
     x => x * 2,
@@ -16,6 +16,6 @@ const example1 = () => {
     simple('nice'),
     x => x * 5,
     simple('output')
-  )(Math.random() * 1e5)
+  )(10)
 }
-example1()
+example()
